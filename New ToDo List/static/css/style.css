@@ -1,0 +1,69 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #222222;
+    color: #717973;
+    text-align: left;
+    padding: 10px auto;
+    
+    height: 45px;
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+main {
+    text-align: center;
+}
+
+.done {
+    color: rgb(50, 180, 50);
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+}
+
+.undone {
+    color: black;
+    text-decoration-line: none;
+}
+
+.div {
+    border: 1px solid black;
+    padding: 3% auto;
+    margin: 1% auto;
+    background-color: lightyellow;
+    height: 30px;
+    width: 50%;
+    position: relative;
+}
+
+.div * {
+    position: relative;
+    top: 15%;
+}
+.checkbox {
+    float: left;
+}
+
+.btn {
+    float: right;
+    margin: auto 10px;
+}
+
+#AddTask {
+    background-color: blue;
+    color: #bedeeb;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: 600;
+}
+
+#AddTask:hover {
+    cursor: pointer;
+}
+
+
+
+
